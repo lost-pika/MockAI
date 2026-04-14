@@ -11,7 +11,7 @@ import paymentRouter from "./routes/payment.route.js"
 
 const app = express()
 app.use(cors({
-    origin: process.env.CLIENT_URL || "https://mock-ai-nu.vercel.app/",
+    origin: process.env.CLIENT_URL || "https://mock-ai-nu.vercel.app",
     credentials: true
 }))
 
