@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
@@ -11,7 +12,7 @@ import InterviewHistory from './pages/InterviewHistory'
 import Pricing from './pages/Pricing'
 import InterviewReport from './pages/InterviewReport'
 
-export const serverUrl = import.meta.env.VITE_SERVER_URL || "https://mockai-nd0b.onrender.com";
+export const ServerUrl = import.meta.env.VITE_SERVER_URL || "https://mockai-nd0b.onrender.com";
 
 function App() {
 
